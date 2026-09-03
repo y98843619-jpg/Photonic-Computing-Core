@@ -31,7 +31,7 @@ If you find this project valuable, donations are warmly appreciated!
 
 | 微信支付 (WeChat Pay) | 门罗币 (Monero / XMR) |
 | :---: | :---: |
-| < img src="./wechat.jpg" width="160px"> | < img src="./xmr.jpg" width="160px"> |
+| <img src="./wechat.jpg" width="160px"> | <img src="./xmr.jpg" width="160px"> |
 
 * 🪙 **Monero (XMR) Address (点击可复制):**
 ```text
