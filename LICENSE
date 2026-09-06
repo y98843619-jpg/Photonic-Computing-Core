@@ -1,19 +1,40 @@
 ================================================================================
           DUAL HARDWARE & SOFTWARE OPEN-SOURCE LICENSE DECLARATION
+                         软硬件双轨开源许可协议声明
 ================================================================================
 
-This project is licensed under a dual hardware and software licensing scheme:
+This project ("Photonic-Computing-Core") is licensed under the following 
+standard open-source licenses:
+本项目（"Photonic-Computing-Core"）遵循以下国际标准开源协议进行授权：
 
-1. HARDWARE:
-   All hardware designs, schematic files, mask layouts (GDSII), and photonic 
-   device physics models are licensed under the:
-   >>> CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2) <<<
+1. HARDWARE (硬件部分):
+All hardware designs, schematic files, mask layouts (GDSII/OASIS), and device 
+simulation models are licensed under:
+所有硬件设计图纸、原理图文件、掩膜版图（GDSII/OASIS）及器件仿真模型均遵循：
 
-2. SOFTWARE & DRIVERS:
-   All ISA decoders, compilers, drivers, and runtime cryptographic libraries 
-   are licensed under the:
-   >>> GNU Lesser General Public License Version 3 (GNU LGPL-3.0) <<<
+   CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)
+   CERN 开放硬件许可协议第 2 版 - 强互惠型 (CERN-OHL-S-2.0)
+   Full text / 官方协议全文: https://spdx.org/licenses/CERN-OHL-S-2.0.html
 
-No additional restrictions are imposed. Complete legal texts are provided in 
-the official CERN-OHL-S v2 and LGPL-3.0 specifications.
+2. SOFTWARE & DRIVERS (软件与驱动部分):
+All instruction set architecture (ISA) decoders, driver APIs, compilers, and 
+runtime libraries are licensed under:
+所有指令集架构（ISA）解码器、底层驱动接口、编译器以及运行时函数库均遵循：
+
+   GNU Lesser General Public License Version 3.0 or later (LGPL-3.0-or-later)
+   GNU 宽通用公共许可证第 3.0 版或更高版本 (LGPL-3.0-or-later)
+   Full text / 官方协议全文: https://spdx.org/licenses/LGPL-3.0-or-later.html
+
+3. DOCUMENTATION (文档资料部分):
+All technical specifications, documentation, and papers are licensed under:
+所有技术规范白皮书、说明文档及学术论文均遵循：
+
+   Creative Commons Attribution 4.0 International (CC-BY-4.0)
+   知识共享署名 4.0 国际许可协议 (CC-BY-4.0)
+   Full text / 官方协议全文: https://spdx.org/licenses/CC-BY-4.0.html
+
+================================================================================
+This declaration strictly applies the official license texts linked above. 
+No additional restrictions, modifications, or custom covenants are added.
+本声明严格执行上述链接中的官方标准协议文本，未添加任何附加限制、私自修改或自定义特约条款。
 ================================================================================
