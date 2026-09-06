@@ -1,46 +1,19 @@
 ================================================================================
           DUAL HARDWARE & SOFTWARE OPEN-SOURCE LICENSE DECLARATION
-    (非线性光子器件硬件、底层编译器与芯片物理指纹库双轨开源许可声明)
 ================================================================================
 
-本项目采用软硬件双轨开源许可架构，旨在构建全球透明、可信的光子计算生态：
+This project is licensed under a dual hardware and software licensing scheme:
 
---------------------------------------------------------------------------------
-1. HARDWARE LICENSE (硬件设计与微纳制造许可)
---------------------------------------------------------------------------------
-本项目中所有硬件图纸、器件结构、掩膜版设计（CAD/GDSII）、光子器件仿真模型等
-硬件设计资产均遵循：
-  >>> CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2) <<<
+1. HARDWARE:
+   All hardware designs, schematic files, mask layouts (GDSII), and photonic 
+   device physics models are licensed under the:
+   >>> CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2) <<<
 
-【核心要点】：
-- 任何研究机构以及商业公司等基于本设计所衍生的物理结构、层数、几何形状优化等，必须遵循 CERN-OHL-S 强制完全开源。
-- 制造工艺配方、良率优化参数代工厂商业秘密允许保留闭源。
+2. SOFTWARE & DRIVERS:
+   All ISA decoders, compilers, drivers, and runtime cryptographic libraries 
+   are licensed under the:
+   >>> GNU Lesser General Public License Version 3 (GNU LGPL-3.0) <<<
 
---------------------------------------------------------------------------------
-2. MANDATORY CHIP-DNA REGISTRATION CLAUSE (芯片物理指纹强制存证特约条款)
---------------------------------------------------------------------------------
-【强制性制造前置条件】：
-任何实体（商业公司、代工厂或科研机构）在制造出基于本架构的物理芯片后，
-必须将每颗芯片出厂测试所提取的微观物理特征/表面等离激元响应特征（即芯片物理指纹/公钥），
-无偿提交并注册至本项目的公开指纹数据库（分支-芯片检测数据）。
-未注册物理指纹的芯片在法律上视为未经授权的非法流片。
-凡基于本项目开源设计进行科研实验、流片测试并拟发表学术成果（论文/预印本/专利）者，
-须在成果公开发布后 30 日内，将该批次芯片的微观光学测试曲线与校准公差数据归档至本项目 01_研究芯片库。
-未按规定归档存证的学术论文，项目发起人保留向相关学术出版机构提出撤稿、学术伦理异议及数据可复现性质疑的权利。
-
---------------------------------------------------------------------------------
-3. SOFTWARE LICENSE (底层指令集与编译器源码许可)
---------------------------------------------------------------------------------
-本项目中所有光子指令集转译器（ISA Decoder）、底层电控驱动代码（Driver API）等
-软件资产均遵循：
-  >>> GNU Lesser General Public License Version 3 (GNU LGPL-3.0) <<<
-
-【核心要点】：
-- 任何对底层编译器、驱动程序本身的修改与优化必须强制开源。
-- 允许第三方在上层开发闭源的商业 AI 模型、控制软件与商业应用，无需公开上层业务代码。
-
-================================================================================
-Complete legal texts are available at:
-- CERN-OHL-S v2: https://ohwr.org/cern_ohl_s_v2.txt
-- GNU LGPL-3.0:  https://www.gnu.org/licenses/lgpl-3.0.txt
+No additional restrictions are imposed. Complete legal texts are provided in 
+the official CERN-OHL-S v2 and LGPL-3.0 specifications.
 ================================================================================
