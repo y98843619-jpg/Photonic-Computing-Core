@@ -26,15 +26,3 @@ https://doi.org/10.5281/zenodo.22525745
 1. **硬件设计与制造图纸**：遵循 [CERN-OHL-S v2](./LICENSE-HARDWARE) 协议开源。
 2. **底层指令集与编译器源码**：遵循 [GNU LGPL-3.0](./LICENSE-SOFTWARE) 协议开源。
 ---
-
-## ☕ 赞助与支持 (Sponsorship)
-如果您认可本项目的开源价值，欢迎支持我们的持续研发！  
-If you find this project valuable, donations are warmly appreciated!
-
-| 微信支付 (WeChat Pay) | 门罗币 (Monero / XMR) |
-| :---: | :---: |
-| <img src="./wechat.jpg" width="160px"> | <img src="./xmr.jpg" width="160px"> |
-
-* 🪙 **Monero (XMR) Address (点击可复制):**
-```text
-89uwR6P2PSD6nZFZ5R2owfVDiNhT6ADtB2RmDRQewKwPGLqQu8ADDBx5jWLZSd1vg2ZLeZXrrZ9Dd4FqPayWTV6Z6TX1tyv
